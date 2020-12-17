@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "RightClickDefine",
+  "version": "1.0",
+
+  "description": "Presents 2 right click options for highlighted text to open the definition in new tab. Currently the options include dictionary.com and urbandictionary.com",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "permissions": [
+        "contextMenus"
+    ]
+  
+}
